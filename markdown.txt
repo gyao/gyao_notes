@@ -1,0 +1,66 @@
+Markdown Grammer
+=========================
+This document is a brief summary of markdown grammer.
+
+Links
+-------------------------
+	<url> generates <a href="url">url</a>  
+	[description](url) generates <a href="url">description</a>  
+	[description](url "title") generates <a href="url" title="title">description</a>  
+	[description][place_holder], in a new line to replace the [place_holder] with [place_holder]:url "title"  
+	[description][], use [description]:url "title" to complete
+
+*************************
+
+Image
+-------------------------
+	![image_alt](url "title") generates <img scr="url" alt="image_alt" title="title">
+*************************
+
+Header
+-------------------------
+###Using hash sign (#)  
+	# to ###### generates from <h1> to <h6>  
+	
+###Using "section line"  
+1. Using 4 or above "="s to generate <h1>
+2. Using 4 or above "-"s to generate <h2>
+*************************
+
+Emphasize
+-------------------------
+	*word* or _word_ generates <em>word</em>  
+	**word** or __word__ generates <strong>word</strong>  
+	***word*** ___word___ or generates <strong><em>word</em></strong>  
+*************************
+
+Quotes
+-------------------------
+	>word generates <blockquote>word</blockquote>
+*************************
+
+Plain Output
+-------------------------
+One or more tab or 4 or more spaces before line.
+*************************
+
+List (Ordered / Unordered)
+-------------------------
+Ordered list begins with any number followed by a dot "."  
+Unordered list begins with +, - or *
+*************************
+
+Line Breaker
+------------------------
+	Two or more spaces ' ' generates </br>
+*************************
+
+Paragraph
+------------------------
+One or more white lines between divides two lines 
+*************************
+
+Horizontal Separator
+------------------------
+Three or more stars ('*')
+*************************
